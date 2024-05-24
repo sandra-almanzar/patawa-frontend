@@ -34,7 +34,7 @@ const Login = () => {
         setAuth(data.tokenUser);
         //redireccion
         setTimeout(() => {
-          window.location.();
+          window.location.reload();
         }, 1000);
       }
     } catch (error) {
