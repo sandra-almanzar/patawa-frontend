@@ -1,0 +1,40 @@
+.login-page {
+  background: no-repeat url(../images/forma-uno.png) bottom right;
+  & .logo {
+    max-width: 150px;
+  }
+  & .dog-walker {
+    max-width: 90%;
+  }
+  & .login-form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    & form {
+      width: 100%;
+      .form-group {
+        margin-bottom: 15px;
+      }
+    }
+    & .btn {
+      width: 100%;
+      background-color: var(--secondary-color);
+      color: var(--main-color);
+      border: none;
+
+      &:hover {
+        background-color: var(--main-color);
+        color: white;
+      }
+    }
+    & .forgot-password {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+    }
+  }
+  & .form-one {
+    max-width: 150px;
+  }
+}
