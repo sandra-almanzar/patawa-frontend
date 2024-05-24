@@ -61,7 +61,7 @@
   ) !important; /* Color de fondo al pasar el mouse */
 }
 
-.h2 {
+h1 {
   color: var(--main-color) !important;
 }
 

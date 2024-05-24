@@ -72,7 +72,7 @@ const Login = () => {
             </div>
             <div className="col-md-6 d-flex align-items-center justify-content-center">
               <div className="login-form-container">
-                <h2 className="mb-4 text-color-one">Bienvenidos</h2>
+                <h2 className="mb-4 poppins-bold ">Bienvenidos</h2>
                 <form className="mb-5" onSubmit={loginUser}>
                   <div className="form-group ">
                     <input
@@ -94,7 +94,7 @@ const Login = () => {
                       onChange={changed}
                     />
                   </div>
-                  <button type="submit" className="btn">
+                  <button type="submit" className="btn poppins-regular">
                     Ingresar
                   </button>
                 </form>
