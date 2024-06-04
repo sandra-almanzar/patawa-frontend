@@ -11,10 +11,14 @@ const Header = () => {
     switch (pathname) {
       case "/admin":
         return "Dashboard";
-      case "/admin/dogs":
-        return "Crear Perro";
       case "/admin/owners":
         return "Propietarios";
+      case "/admin/dogs":
+        return "Perros";
+      case "/admin/walkers":
+        return "Paseadores";
+      case "/admin/walks":
+        return "Paseos";
       default:
         return "Login";
     }

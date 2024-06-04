@@ -19,19 +19,19 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="dogs">
               <i className="fa fa-paw"></i> Mascotas
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="walkers">
               <i className="fa fa-walking"></i> Paseadores
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="walks">
               <i className="fa fa-route"></i> Paseos
-            </a>
+            </NavLink>
           </li>
         </ul>
 

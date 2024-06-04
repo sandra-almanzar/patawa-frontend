@@ -4,7 +4,6 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import Footer from "./Footer";
 import useAuth from "../../hooks/useAuth";
-import { useEffect } from "react";
 
 const Layout = () => {
   const { auth, loading } = useAuth();
