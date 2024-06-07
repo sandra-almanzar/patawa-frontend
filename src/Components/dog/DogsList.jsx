@@ -44,7 +44,7 @@ const DogsList = () => {
                   <th className="custom-th">Nombre</th>
                   <th className="custom-th">color</th>
                   <th className="custom-th">Edad</th>
-                  <th className="custom-th">Peso</th>
+                  <th className="custom-th">Peso (Kg)</th>
                   <th className="custom-th">Tamaño</th>
                   <th className="custom-th">Acciones</th>
                 </tr>
@@ -58,7 +58,6 @@ const DogsList = () => {
                       <td>{dog.age}</td>
                       <td>{dog.weight}</td>
                       <td>{dog.size}</td>
-
                       <td className="actions">
                         <button className="btn btn-edit">
                           <i className="bi bi-pencil-fill"></i>
